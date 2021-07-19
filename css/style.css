@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
+.body {
     font-family: Arial, Sans-serif;
     line-height: 1.4;
     color: #333;
@@ -110,7 +110,7 @@ body {
     margin-left: auto;
     width: 75%;
     border-radius: 40%;
-    Margin-top: 60px;
+    margin-top: 60px;
 }
 
 /* Section: Skills */
@@ -148,7 +148,16 @@ body {
     margin-bottom: 2rem;
 }
 
-/* Section: Contact */
+#projects {
+    padding: 5rem 0;
+}
+
+#container2 {
+    margin: 0 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    margin-bottom: 10rem;
+}
 
 #contact {
     padding: 5rem 0;
@@ -222,7 +231,7 @@ body {
     position: relative;
 }
 
-contact .mail-icon {
+.contact .mail-icon {
     font-size: 4rem;
     background: #3693ff;
     color: #fff;
